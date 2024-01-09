@@ -24,4 +24,4 @@ jobs:
 
     - name: Deploy to server
       run: |
-        ssh user@server_address "docker pull my-flask-app && docker-compose up -d"
+        ssh user@server_address "docker pull appflask && docker-compose up -d"
